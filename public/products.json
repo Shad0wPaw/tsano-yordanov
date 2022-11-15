@@ -1,0 +1,82 @@
+[
+    {
+       "title":"Vape Blackberry",
+       "price":"17.99",
+       "category":"fruits",
+       "puffs":"600",
+       "size":"individual",
+       "image":"https://cdn.shopify.com/s/files/1/0018/7534/5466/products/FIZZY-CHERRY_1024x1024.jpg?v=1660649071"
+    },
+    {
+       "title":"Vape Melon",
+       "price":"11.99",
+       "category":"fruits",
+       "puffs":"600",
+       "size":"individual",
+       "image":"https://cdn.shopify.com/s/files/1/0018/7534/5466/products/GRAPE-APPLE-REDBULL_ba0630a2-457d-4c86-adcc-c27cea7dceb2_1024x1024.jpg?v=1660649084"
+    },
+    {
+       "title":"Vape Watermelon",
+       "price":"11.99",
+       "category":"fruits",
+       "puffs":"600",
+       "size":"individual",
+       "image":"https://cdn.shopify.com/s/files/1/0018/7534/5466/products/Watermelon-Candy_fbf66dc1-5ec2-4c51-a066-a8748a744a59_1024x1024.jpg?v=1662045088"
+    },
+    {
+       "title":"Vape Apple",
+       "price":"31.99",
+       "category":"fruits",
+       "puffs":"600",
+       "size":"individual",
+       "image":"https://cdn.shopify.com/s/files/1/0018/7534/5466/products/BLUEBERRY-RASPBERRY_5788aaa5-976e-4090-8e8d-3bfe5b324bfc_1024x1024.jpg?v=1660648981"
+    },
+    {
+      "title":"Vape Grape",
+      "price":"49.90",
+      "category":"fruits",
+      "puffs":"600",
+      "size":"individual",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMof5VuOLlkOFx6BSY0R6xDK5yG57FdJrBW52-CBsHzDRxh27yuA2NUobTlqZ8f1DfD6I&usqp=CAU"
+   },
+    {
+      "title":"Vape Orange",
+      "price":"40.00",
+      "category":"fruits",
+      "puffs":"1500",
+      "size":"box",
+      "image":"https://cdn.shopify.com/s/files/1/0018/7534/5466/products/Watermelon-Candy_fbf66dc1-5ec2-4c51-a066-a8748a744a59_1024x1024.jpg?v=1662045088"
+   },
+    {
+      "title":"Vape Gum",
+      "price":"67.00",
+      "category":"fruits",
+      "puffs":"1500",
+      "size":"individual",
+      "image":"https://cdn.shopify.com/s/files/1/0018/7534/5466/products/Watermelon-Candy_fbf66dc1-5ec2-4c51-a066-a8748a744a59_1024x1024.jpg?v=1662045088"
+   },
+    {
+      "title":"Pack10x MS",
+      "price":"100.00",
+      "category":"fruits",
+      "puffs":"600",
+      "size":"box",
+      "image":"http://cdn.shopify.com/s/files/1/0018/7534/5466/products/GROUP-PIC_199d7d44-d519-405b-ade6-b3cd48eb5ad9_grande.jpg?v=1660648961"
+   },
+    {
+      "title":"Pack 10x",
+      "price":"100.00",
+      "category":"fruits",
+      "puffs":"4000",
+      "size":"box",
+      "image":"http://cdn.shopify.com/s/files/1/0018/7534/5466/products/GROUP-PIC_199d7d44-d519-405b-ade6-b3cd48eb5ad9_grande.jpg?v=1660648961"
+   },
+    {
+      "title":"Vape T-Crystal",
+      "price":"100.00",
+      "category":"fruits",
+      "puffs":"1500",
+      "size":"individual",
+      "image":"https://cdn.shopify.com/s/files/1/0018/7534/5466/products/Watermelon-Candy_fbf66dc1-5ec2-4c51-a066-a8748a744a59_1024x1024.jpg?v=1662045088"
+   }
+ ]

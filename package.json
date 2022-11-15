@@ -1,0 +1,17 @@
+{
+  "name": "crystal",
+  "version": "1.0.0",
+  "description": "Server Crystal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joker C",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nedb": "^1.8.0",
+    "nodemon": "^2.0.20",
+    "os": "^0.1.2"
+  }
+}
