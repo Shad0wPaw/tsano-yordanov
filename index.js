@@ -16,7 +16,7 @@ siteEnterDatabase.loadDatabase();
 
 //GET
 app.get("/api", (request, response) => {
-    database.find({}, (err, data) => {
+  siteEnterDatabase.find({}, (err, data) => {
         response.json(data)
     })
 });
@@ -25,8 +25,8 @@ app.get("/api", (request, response) => {
 //POST
 app.post("/api", (request, response) => {
   const timeShow = new Date().toUTCString();
-  request.body.timeShow = timeShow;
-  database.insert(request.body);
+  request.body.time = timeShow;
+  siteEnterDatabase.insert(request.body);
   response.json({
     status: "success",
     time: timeShow,

@@ -1,9 +1,10 @@
 
+////////////////////////////////////// post
 if ("geolocation" in navigator) {
     navigator.geolocation.getCurrentPosition(async position => {
         var lat = position.coords.latitude
         var long = position.coords.longitude
-
+4
         const dataLocation = { lat,long }
         const options = {
             method: 'POST',
