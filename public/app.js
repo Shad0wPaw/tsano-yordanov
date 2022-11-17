@@ -107,15 +107,17 @@ ${json
   });
   filterIcon.addEventListener('click', showFilter)
   basketIcon.addEventListener("click", showBasket);
-  window.onresize = ()=>{
-    if(window.innerWidth > 767){
-      filters.style.display = 'block'
-      document.getElementsByClassName('shop__sorting')[0].style.display = 'block'
+
+  function filterResponsive(){
+      if(window.innerWidth > 767){
+      filters.style.display = 'flex'
+      document.getElementsByClassName('shop__sorting')[0].style.display = 'flex'
     } else {
       filters.style.display = 'none'
       document.getElementsByClassName('shop__sorting')[0].style.display = 'none'
-    }
-  }
+    }}
+
+    window.addEventListener('resize', filterResponsive);
 
   function yourBasket(e) {
     let selectedTitle =

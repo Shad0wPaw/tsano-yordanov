@@ -233,10 +233,6 @@
   #filter-div {
     display: none;
   }
-  .right-section {
-    margin: 0 auto;
-  }
-  
   @media (max-width: 767px) {
     .product-header{
         margin-left: -3px;

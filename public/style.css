@@ -32,14 +32,20 @@
   margin-left: 25px;
   cursor: pointer;
 }
-.nav-logo-c a {
+.logo-footer-div {
+  position: relative;
+  text-align: center;
+  height: 58px;
+  cursor: pointer;
+}
+.nav-logo-c a, .logo-footer-div a {
   color: white;
   text-decoration: none;
 }
-.nav-logo-c a:hover {
+.nav-logo-c a:hover, .logo-footer-div a:hover {
   color: white;
 }
-.nav-logo-c b {
+.nav-logo-c b, .logo-footer-div b {
   color: initial;
   position: relative;
   top: -12px;
