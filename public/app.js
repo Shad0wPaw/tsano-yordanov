@@ -47,7 +47,6 @@ async function productJson() {
 
   function outputPr(json) {
     output.innerHTML = `
-<h4>Products</h4>
 ${json
   .map(function (vape, index) {
     return `<div class="col-sm-6 col-md-4" key=${index}>
@@ -111,7 +110,7 @@ ${json
   function filterResponsive(){
       if(window.innerWidth > 767){
       filters.style.display = 'block'
-      document.getElementsByClassName('shop__sorting')[0].style.display = 'flex'
+      document.getElementsByClassName('shop__sorting')[0].style.display = 'block'
     } else {
       filters.style.display = 'none'
       document.getElementsByClassName('shop__sorting')[0].style.display = 'none'

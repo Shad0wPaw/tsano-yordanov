@@ -33,10 +33,11 @@
   cursor: pointer;
 }
 .logo-footer-div {
-  height: 58px;
   position: relative;
-  transform: translateX(-50%);
-  left: 50%;
+  text-align: center;
+  height: 58px;
+  left: -22px;
+  margin-left: 25px;
   cursor: pointer;
 }
 .nav-logo-c a, .logo-footer-div a {
@@ -53,4 +54,11 @@
   padding: 0 20px;
   background-color: white;
   font-size: 12px;
+}
+@media (max-width: 767px) {
+  .logo-footer-div {
+    left: 0;
+    margin-left: 0px;
+    margin: 0 auto;
+  }
 }

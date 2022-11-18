@@ -66,99 +66,100 @@
       </div>
     </nav>
 
-    <div class="container mt-5">
-      <div class="row" style="position: relative;">
-
-
-        <div class="col-md-3 div_shop_filter">
-          <!-- Filter -->
-          <form class="shop__filter">
-            <h3 class="headline">
-              <span>Price</span>
-            </h3>
-            <div class="radio">
-              <input type="radio" name="shop-filter__price" id="shop-filter-price_0" value="" checked="">
-              <label for="shop-filter-price_0">All Items</label>
-              
-              <input type="radio" name="shop-filter__price" id="shop-filter-price_1" value="" >
-              <label for="shop-filter-price_1">Under $25</label>
-
-              <input type="radio" name="shop-filter__price" id="shop-filter-price_2" value="">
-              <label for="shop-filter-price_2">$25 to $50</label>
-            
-              <input type="radio" name="shop-filter__price" id="shop-filter-price_3" value="">
-              <label for="shop-filter-price_3">$50 to $100</label>
-            
-              <input type="radio" name="shop-filter__price" id="shop-filter-price_4" value="specify">
-              <label for="shop-filter-price_4">Other (specify)</label>
-            </div>
-            <div class="custom-price-filter">
-              <div class="d-grid gap-2">
-                  <label for="shop-filter-price_from" class="sr-only"></label>
-                  <input id="shop-filter-price_from" type="number"min="0" class="form-control" placeholder="From">
-                  <label for="shop-filter-price_to" class="sr-only"></label>
-                  <input id="shop-filter-price_to" type="number" min="0" class="form-control" placeholder="To">
-                  <button class="btn btn-outline-dark" id="custom-price_filter">Go</button>
-              </div>
-            </div>
-            <h3 class="headline">
-              <span>Puffs</span>
-            </h3>
-            <div class="checkbox">
-              <input type="checkbox" value="" id="shop-filter-checkbox_2">
-              <label for="shop-filter-checkbox_2">600Puffs</label>
-            </div>
-            <div class="checkbox">
-              <input type="checkbox" value="" id="shop-filter-checkbox_3">
-              <label for="shop-filter-checkbox_3">1500Puffs</label>
-            </div>
-            <div class="checkbox">
-              <input type="checkbox" value="" id="shop-filter-checkbox_4">
-              <label for="shop-filter-checkbox_4">4000Puffs</label>
-            </div>
-            <h3 class="headline">
-              <span>Sizes</span>
-            </h3>
-            <div class="checkbox">
-              <input type="checkbox" value="" id="shop-filter-checkbox_6">
-              <label for="shop-filter-checkbox_6">Individual</label>
-            </div>
-            <div class="checkbox">
-              <input type="checkbox" value="" id="shop-filter-checkbox_7">
-              <label for="shop-filter-checkbox_7">Boxes</label>
-            </div>
-          </form>
-        </div>
-
-        <div class="row col-md-9 right-section" style="margin: 0 auto;">
-          <div class="col-sm-4 basket-container" style="display: none;">
-            <div class="basket-header">
-            <h3>Basket</h3>
-            </div>
-                <div id="output-basket">
-                  <!-- output-basket-goes-here -->
-                 </div>
-            <div class="basket-footer">
-            <h3>Total:</h3><h3>$100</h3>
-            <button>CLEAR CART</button>
-            </div>
-          </div>
-         <div class="product-header">
-            <div id="filter-div"><i class="fa-solid fa-filter filter-icon"></i><b>Filter</b></div>
-            <div id="basket"><i class="fa-solid fa-basket-shopping"></i><b id="basket-number">0</b></div>
-          </div>
+   
+    <div class="container justify-content-center ">
+      <div class="row justify-content-center ">
         
-         <ul class='col shop__sorting'>
-          <li class="active"><a href="#">Popular</a></li>
-          <li><a href="#">Newest</a></li>
-          <li><a href="#">Bestselling</a></li>
-          <li><a href="#">Price (low)</a></li>
-          <li><a href="?price/high">Price (high)</a></li>
-         </ul>
-          <div class="row" id="output-js" style="margin: 0 auto;"></div>
-        </div> <!-- / .col-sm-8 -->
-      </div> <!-- / .row -->
+      <div class="row mt-5 mb-3"><h4 class="h4-product">Products</h4></div>
+
+       <div class="col-md-4 col-lg-2 div_shop_filter"> <!-- left -->
+        <form class="shop__filter">
+          <h3 class="headline">
+            <span>Price</span>
+          </h3>
+          <div class="radio">
+            <input type="radio" name="shop-filter__price" id="shop-filter-price_0" value="" checked="">
+            <label for="shop-filter-price_0">All Items</label>
+            
+            <input type="radio" name="shop-filter__price" id="shop-filter-price_1" value="" >
+            <label for="shop-filter-price_1">Under $25</label>
+
+            <input type="radio" name="shop-filter__price" id="shop-filter-price_2" value="">
+            <label for="shop-filter-price_2">$25 to $50</label>
+          
+            <input type="radio" name="shop-filter__price" id="shop-filter-price_3" value="">
+            <label for="shop-filter-price_3">$50 to $100</label>
+          
+            <input type="radio" name="shop-filter__price" id="shop-filter-price_4" value="specify">
+            <label for="shop-filter-price_4">Other (specify)</label>
+          </div>
+          <div class="custom-price-filter">
+            <div class="d-grid gap-2">
+                <label for="shop-filter-price_from" class="sr-only"></label>
+                <input id="shop-filter-price_from" type="number"min="0" class="form-control" placeholder="From">
+                <label for="shop-filter-price_to" class="sr-only"></label>
+                <input id="shop-filter-price_to" type="number" min="0" class="form-control" placeholder="To">
+                <button class="btn btn-outline-dark" id="custom-price_filter">Go</button>
+            </div>
+          </div>
+          <h3 class="headline">
+            <span>Puffs</span>
+          </h3>
+          <div class="checkbox">
+            <input type="checkbox" value="" id="shop-filter-checkbox_2">
+            <label for="shop-filter-checkbox_2">600Puffs</label>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" value="" id="shop-filter-checkbox_3">
+            <label for="shop-filter-checkbox_3">1500Puffs</label>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" value="" id="shop-filter-checkbox_4">
+            <label for="shop-filter-checkbox_4">4000Puffs</label>
+          </div>
+          <h3 class="headline">
+            <span>Sizes</span>
+          </h3>
+          <div class="checkbox">
+            <input type="checkbox" value="" id="shop-filter-checkbox_6">
+            <label for="shop-filter-checkbox_6">Individual</label>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" value="" id="shop-filter-checkbox_7">
+            <label for="shop-filter-checkbox_7">Boxes</label>
+          </div>
+        </form>
+      </div>
+      <div class="row justify-content-center col-md-8 col-lg-10"><!-- right -->
+        <div class="row justify-content-center">
+          <ul class='col-md-9 shop__sorting'>
+           <li class="active"><a href="#">Popular</a></li>
+           <li><a href="#">Newest</a></li>
+           <li><a href="#">Bestselling</a></li>
+           <li><a href="#">Price (low)</a></li>
+           <li><a href="?price/high">Price (high)</a></li>
+          </ul>
+          <div class="col-md-3 product-header">
+           <div id="filter-div"><i class="fa-solid fa-filter filter-icon"></i><b>Filter</b></div>
+           <div id="basket"><i class="fa-solid fa-basket-shopping"></i><b id="basket-number">0</b></div>
+          </div>
+         </div>
+         <div class="basket-container" style="display: none;">
+          <div class="basket-header">
+          <h3>Basket</h3>
+          </div>
+              <div id="output-basket">
+                <!-- output-basket-goes-here -->
+               </div>
+          <div class="basket-footer">
+          <h3>Total:</h3><h3>$100</h3>
+          <button>CLEAR CART</button>
+          </div>
+        </div>
+         <div class="row" id="output-js"></div> 
+      </div> 
     </div>
+  </div>
 
 
     <footer
