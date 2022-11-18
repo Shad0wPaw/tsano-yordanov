@@ -223,6 +223,19 @@ ${json
     hoverAddtoCard();
     newFilter = [];
   });
+    ///////////////////////////////////////////////FILTER Puffs//////////////////////////////////////////////////////
+
+    function trackPuffs(puffs){
+     if(this.checked){
+      console.log('check')
+     } else{
+      console.log('uncheck')
+     }
+    }
+
+    document.getElementById('shop-filter-checkbox_1').addEventListener('change', trackPuffs)
+    document.getElementById('shop-filter-checkbox_2').addEventListener('change', trackPuffs)
+    document.getElementById('shop-filter-checkbox_3').addEventListener('change', trackPuffs)
 }
 productJson();
 /////////////////////////////////////////////////////////////////////////////////////////////////////
