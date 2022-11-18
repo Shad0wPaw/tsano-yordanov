@@ -110,7 +110,7 @@ ${json
 
   function filterResponsive(){
       if(window.innerWidth > 767){
-      filters.style.display = 'flex'
+      filters.style.display = 'block'
       document.getElementsByClassName('shop__sorting')[0].style.display = 'flex'
     } else {
       filters.style.display = 'none'
