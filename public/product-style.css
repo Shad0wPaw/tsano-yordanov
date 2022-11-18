@@ -1,4 +1,7 @@
 /*/////////////////////////////////////PRODUCT//////////////////////////////////////////////*/
+.h4-product{
+  font-size: 46px;
+}
 .shop__thumb {
     border: 1px solid rgb(0, 0, 0);
     padding: 20px;
@@ -14,7 +17,9 @@
   }
   .product-header {
     display: flex;
+    float: right;
   }
+  
   .shop__thumb > a {
     color: #333333;
     text-decoration: none;
@@ -68,13 +73,10 @@
   }
   /** Shop: Sorting **/
   .shop__sorting {
-    display: flex;
+    display: block;
     list-style: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     text-align: left;
-  }
-  .product-header {
-    float: right;
   }
   #basket {
       cursor: pointer;
@@ -95,14 +97,12 @@
   }
   .basket-container {
       display: flex;
+      margin-bottom: 15px;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       z-index: 99;
-      right: 0;
-      top: 43px;
       background-color: #807475;
-      position: absolute;
   }
   .basket-container h3 {
     font-size: 30px;
@@ -234,24 +234,19 @@
     display: none;
   }
   @media (max-width: 767px) {
+    .h4-product{
+      text-align: center;
+      font-size: 30px;
+    }
     .product-header{
         margin-left: -3px;
         align-items: center;
         justify-content: space-around;
-    }
-    .product-header{
-        order: 1;
         margin-right: 5px ;
         padding: 5px;
         margin-bottom: 30px;
         border-bottom: 0.6px solid rgb(63, 63, 63);
     }
-    .right-section {
-        order: 3;
-      }
-      #output-js {
-        order: 4;
-      }
     #filter-div {
         cursor: pointer;
         display: flex;
@@ -263,10 +258,10 @@
     }
     .div_shop_filter {
         display: none;
-        order: 2;
-    }
+    } 
     .shop__sorting {
       text-align: left;
+      flex-direction: column;
       border-bottom: 0;
       margin-top: 24px;
       display: none;
