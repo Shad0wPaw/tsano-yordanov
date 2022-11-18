@@ -24,6 +24,6 @@ async function getFetch(){
     const response = await fetch('/api')
     const data = await response.json()
     for (d of data) {
-        document.getElementById('root_checkout').innerText += d
+        document.getElementById('root_checkout').innerHTML += `<div><h3><b>ID: ${d._id} <br>Entered at: ${d.time}<b></h3><br> </div>`
     }
 }
