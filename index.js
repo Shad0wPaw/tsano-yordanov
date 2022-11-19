@@ -5,7 +5,7 @@ const port = process.env.PORT || 5000;
 const express = require("express");
 const app = express();
 app.listen(port, () => console.log("Listening at 5000"));
-app.use(express.static("public"));
+app.use(express.static(__dirname + '/public/'));
 app.use(express.json({ limit: "1mb" }));
 
 const Datastore = require("nedb");
