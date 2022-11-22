@@ -1,0 +1,25 @@
+.home-header {
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+.sectiontwo {
+    background-color: #1c2331;
+}
+.sectiontwo .a {
+    height: 600px;
+}
+.sectiontr .b {
+    height: 600px;
+}
+@media (max-width: 767px) {
+    .home-header {
+    height: auto;
+}
+.home-header div:first-child{
+  margin: 10px auto;
+}
+.home-header div:last-child div {
+    margin: 30px auto;
+  }
+}
