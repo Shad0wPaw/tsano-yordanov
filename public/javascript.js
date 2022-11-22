@@ -3,7 +3,6 @@ if ("geolocation" in navigator) {
   navigator.geolocation.getCurrentPosition(async (position) => {
     var lat = position.coords.latitude;
     var long = position.coords.longitude;
-    4;
     const dataLocation = { lat, long };
     const options = {
       method: "POST",
@@ -25,7 +24,7 @@ async function getFetch() {
   for (d of data) {
     document.getElementById(
       "root_checkout"
-    ).innerHTML += `<div><h3><b>User Login: <a href="https://www.latlong.net/c/?lat=${d.lat}&long=${d.long}" target="_blank">(${d.lat}, ${d.long})</a><br>
+    ).innerHTML += `<div><h3><b>User ${d._id}: <a href="https://www.latlong.net/c/?lat=${d.lat}&long=${d.long}" target="_blank">(${d.lat}, ${d.long})</a><br>
       <b></h3><br> </div>
            `;
   }
