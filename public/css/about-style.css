@@ -3,3 +3,12 @@
     border-radius: 5px;
     width: 90%;
 }
+.sectiontwo {
+    background-color: #1c2331;
+  }
+  .sectiontwo .a {
+    height: 600px;
+  }
+  .sectiontr .b {
+    height: 600px;
+  }
