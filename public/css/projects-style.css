@@ -1,0 +1,16 @@
+#output-about{
+    border-bottom: 1px solid rgb(179, 179, 179);
+    width: 147px;
+}
+#output-about h1 {
+  color: white;
+}
+.projects {
+    padding-bottom: 50px;
+    background-color: #1c2331;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    border-top: 1px solid rgb(179, 179, 179);
+  }
+  .projects .card {
+    cursor: pointer;
+  }
