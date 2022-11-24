@@ -13,4 +13,11 @@
   }
   .projects .card {
     cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+  }
+  .bg-card {
+    background: linear-gradient(to right, #373b44, #4286f4) !important;
+    color: #fff;
   }
