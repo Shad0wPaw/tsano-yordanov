@@ -6,13 +6,19 @@
   left: 50%;
   transform: translate(-50%, 0);
 }
+.container-wrapper-index {
+  position: relative;
+  background-color: white;
+  border-radius: 40%;
+}
 .svg-wave {
-  left: 0;
-  bottom: 0;
   position: absolute;
-  z-index: -99;
+  bottom:0;
+  left: 0;
 }
 .home-header img {
+  border-end-end-radius: 50%;
+  width: 300px;
 }
 .text-wrapper {
   margin-left: 60px;
@@ -59,9 +65,15 @@
     left: 0;
     transform: translate(0, 0);
   }
+  .home-header img {
+    margin-top: -50px;
+    border-end-end-radius: 0;
+  }
+  .container-wrapper-index {
+    border-radius: 0%;
+  }
   .text-wrapper {
     text-align: center;
-
     position: relative;
     top: -50px;
   }
