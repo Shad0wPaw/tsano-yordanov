@@ -17,7 +17,9 @@
   left: 0;
 }
 .home-header img {
-  border-end-end-radius: 50%;
+  position: relative;
+  bottom: 30px;
+  border-radius: 50%;
   width: 300px;
 }
 .text-wrapper {
@@ -43,7 +45,7 @@
   font-size: 18px;
 }
 
-.home-header div:last-child div h4 {
+.home-header div:last-child div h4:last-of-type {
   margin-bottom: 30px;
 }
 .home-header div:last-child div h1 {
@@ -66,6 +68,8 @@
     transform: translate(0, 0);
   }
   .home-header img {
+    
+    bottom: auto;
     margin-top: -50px;
     border-end-end-radius: 0;
   }
