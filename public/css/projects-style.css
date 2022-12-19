@@ -1,8 +1,8 @@
-#output-about{
+#output-top-pr{
     border-bottom: 1px solid rgb(179, 179, 179);
     width: 147px;
 }
-#output-about h1 {
+#output-top-pr h1 {
   color: white;
 }
 .projects {
@@ -16,6 +16,9 @@
     border-radius: 10px;
     border: none;
     position: relative;
+  }
+  .projects .card:hover {
+      transform: scale(1.1);
   }
   .bg-card {
     background: linear-gradient(to right, #373b44, #4286f4) !important;
