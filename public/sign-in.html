@@ -62,8 +62,9 @@
         </div>
       </div>
     </nav>
-
-    <div class="container mt-5 mb-5">
+    <div class="container d-flex ps-2 gap-4">
+    <div class="container mt-5 mb-5 bg-dark text-white rounded">
+      <h1 class="text-center pb-2">Sign In</h1>
       <form>
         <!-- Email input -->
         <div class="form-outline mb-4">
@@ -82,8 +83,7 @@
           <!-- Submit button -->
           <button
             type="button"
-            class="btn btn-block mb-4"
-            style="background-color: #1c2331; color: white"
+            class="btn btn-block mb-4 bg-light"
           >
             Sign in
           </button>
@@ -105,30 +105,47 @@
             <a href="#!">Forgot password?</a>
           </div>
         </div>
-        <!-- Register buttons -->
+      </form>
+    </div>
+
+  
+    
+
+    <div class="container mt-5 mb-5">
+      <h1 class="text-center pb-2">Register</h1>
+      <form>
+        <div class="form-outline mb-4">
+          <input type="email" id="form2Example1" class="form-control" />
+          <label class="form-label" for="form2Example1" >Email address</label>
+        </div>
+        <div class="form-outline mb-4">
+          <input type="password" id="form2Example2" class="form-control" />
+          <label class="form-label" for="form2Example2">Password</label>
+        </div>
+         <div class="row mb-4 d-flex"><button
+         type="button"
+         class="btn btn-block mb-4"
+         style="background-color: #1c2331; color: white"
+       >
+         Register
+       </button></div>
         <div class="text-center">
-          <p>Not a member? <a href="./register.html">Register</a></p>
-          <p>or sign up with:</p>
           <button type="button" class="btn btn-link btn-floating mx-1">
             <i class="fab fa-facebook-f"></i>
           </button>
-
           <button type="button" class="btn btn-link btn-floating mx-1">
             <i class="fab fa-google"></i>
           </button>
-
           <button type="button" class="btn btn-link btn-floating mx-1">
             <i class="fab fa-twitter"></i>
           </button>
-
           <button type="button" class="btn btn-link btn-floating mx-1">
             <i class="fab fa-github"></i>
           </button>
         </div>
       </form>
     </div>
-
-  
+  </div>
     <footer
       class="text-center text-lg-start text-white container-fluid"
       style="background-color: #1c2331"
