@@ -1,9 +1,6 @@
-#output-top-pr{
-    border-bottom: 1px solid rgb(179, 179, 179);
-    width: 147px;
-}
-#output-top-pr h1 {
-  color: white;
+#output-top-pr h1{
+  text-decoration: underline rgb(179, 179, 179) 2px;
+  text-underline-offset: 10px;
 }
 .projects {
     padding-bottom: 50px;

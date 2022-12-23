@@ -1,9 +1,9 @@
-#top-cf{
-    border-bottom: 1px solid rgb(179, 179, 179);
-    width: 208px;
+.top-cf {
+  width: 216px;
 }
-#top-cf h1 {
-  color: white;
+.top-cf h1{
+  text-decoration: underline rgb(179, 179, 179) 2px;
+  text-underline-offset: 10px;
 }
 .certificates {
     padding-bottom: 50px;

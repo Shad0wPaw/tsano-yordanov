@@ -68,10 +68,8 @@
     transform: translate(0, 0);
   }
   .home-header img {
-    
     bottom: auto;
     margin-top: -50px;
-    border-end-end-radius: 0;
   }
   .container-wrapper-index {
     border-radius: 0%;
