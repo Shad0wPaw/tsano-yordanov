@@ -1,9 +1,9 @@
-#top-cm{
-    border-bottom: 1px solid rgb(179, 179, 179);
-    width: 215.5px;
+.top-cm {
+  width: 216px;
 }
-#top-cm h1 {
-  color: white;
+.top-cm h1{
+  text-decoration: underline rgb(179, 179, 179) 2px;
+  text-underline-offset: 10px;
 }
 .contact-me {
     padding-bottom: 50px;
