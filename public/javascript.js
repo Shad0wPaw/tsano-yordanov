@@ -1,5 +1,3 @@
-const e = require("express");
-
 ////////////////////////////////////// post
 if ("geolocation" in navigator) {
   navigator.geolocation.getCurrentPosition(async (position) => {

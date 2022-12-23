@@ -1,0 +1,13 @@
+#top-cf{
+    border-bottom: 1px solid rgb(179, 179, 179);
+    width: 208px;
+}
+#top-cf h1 {
+  color: white;
+}
+.certificates {
+    padding-bottom: 50px;
+    background-color: #1c2331;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    border-top: 1px solid rgb(179, 179, 179);
+  }
