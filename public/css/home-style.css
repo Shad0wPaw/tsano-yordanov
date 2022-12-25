@@ -57,12 +57,29 @@
   color: rgb(128, 15, 0);
   letter-spacing: 2.4px;
 }
-@media (max-width: 1196px) {
+@media only screen and (max-width: 1200px) {
   .text-wrapper {
-    margin-left: 94px;
+    margin-left: 84px;
+  }
+  .container-wrapper-index{
+    height: 400px;
   }
 }
-@media (max-width: 767px) {
+@media only screen and (max-width: 1030px) {
+  .text-wrapper {
+    margin-left: 106px;
+  }
+  .container-wrapper-index{
+    height: 470px;
+  }
+  .svg-wave {
+    width: 200%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .svg-wave {
+    width: 105%;
+  }
   .home-header {
     height: 700px;
     left: 0;
@@ -74,6 +91,7 @@
   }
   .container-wrapper-index {
     border-radius: 0%;
+    height: auto;
   }
   .text-wrapper {
     text-align: center;

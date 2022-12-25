@@ -11,7 +11,14 @@
     padding-bottom: 50px;
     background-color: #1c2331;
   }
-  @media (max-width: 767px) {
+  .card-selector {
+    cursor: pointer;
+  }
+  .cf-open i {
+    color: #1c2331;
+    font-size: 22px;
+}
+  @media only screen and (max-width: 767px) {
     .top-cf {
       align-self: center;
     }
