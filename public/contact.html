@@ -69,10 +69,48 @@
     </nav>
 
     <div class="container-fluid contact-me">
-      <div class="container text-white pt-5">
+      <div
+        class="container text-white pt-5 d-flex flex-column align-items-center"
+      >
         <div class="top-cm"><h1>Contact Me</h1></div>
 
-        <div class="row">
+        <div
+          class="p-3 mt-3 rounded shadow-lg bg-white contact-form"
+          style="height: 570px"
+        >
+          <div class="m-5 h-100">
+            <form
+              class="d-flex flex-column justify-content-between"
+              style="height: 80%"
+            >
+              <div class="d-grid text-dark gap-4">
+                <div class="d-flex flex-column">
+                  <label class="form-label" for="name-c"></label>
+                  <input
+                    id="name-c"
+                    name="name-c"
+                    type="text"
+                    placeholder="Name:"
+                  />
+                </div>
+                <div class="d-flex flex-column">
+                  <label class="form-label" for="email-c"></label>
+                  <input
+                    id="email-c"
+                    name="email-c"
+                    type="email"
+                    placeholder="Email:"
+                  />
+                </div>
+
+                <div style="position: relative;">
+                  <textarea placeholder="Message..." id="message-c"></textarea>
+                  <span class="msg-lenght"><p>0</p>/1000</span>
+                </div>
+              </div>
+              <button id="btn-c" type="submit">Send</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
@@ -178,5 +216,6 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
+    <script src="contact.js"></script>
   </body>
 </html>
