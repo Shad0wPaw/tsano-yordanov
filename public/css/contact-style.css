@@ -18,12 +18,15 @@
 #name-c, #email-c,#message-c{
   border: none;
   outline: none;
+  margin-top: -8px;
   border-bottom: 1px solid rgb(151, 151, 151);
 }
 #message-c:blank{
   width: 100%;
   height: 28px;
   resize: none;
+  overflow: auto;
+  white-space: pre-line;
   -webkit-transition: height .35s ease-in-out;
   transition: height .35s ease-in-out;
 }
@@ -31,6 +34,8 @@
   width: 100%;
   height: 28px;
   resize: none;
+  overflow: auto;
+  white-space: pre-line;
   -webkit-transition: height .35s ease-in-out;
   transition: height .35s ease-in-out;
 }
@@ -40,11 +45,6 @@
  position: absolute;
  right: 0;
  bottom: 0;
- /* float: right; */
-}
-#message-c:focus {
-  height: 220px;
-  
 }
 #btn-c {
   border: none;

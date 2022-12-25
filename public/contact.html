@@ -76,7 +76,7 @@
 
         <div
           class="p-3 mt-3 rounded shadow-lg bg-white contact-form"
-          style="height: 570px"
+          style="height: 590px"
         >
           <div class="m-5 h-100">
             <form
@@ -85,27 +85,28 @@
             >
               <div class="d-grid text-dark gap-4">
                 <div class="d-flex flex-column">
-                  <label class="form-label" for="name-c"></label>
+                  <label class="form-label" for="name-c">Name:</label>
                   <input
                     id="name-c"
                     name="name-c"
                     type="text"
-                    placeholder="Name:"
+                    placeholder="Enter your name..."
                   />
                 </div>
                 <div class="d-flex flex-column">
-                  <label class="form-label" for="email-c"></label>
+                  <label class="form-label" for="email-c">Email:</label>
                   <input
                     id="email-c"
                     name="email-c"
                     type="email"
-                    placeholder="Email:"
+                    placeholder="Enter your email..."
                   />
                 </div>
 
                 <div style="position: relative;">
-                  <textarea placeholder="Message..." id="message-c"></textarea>
-                  <span class="msg-lenght"><p>0</p>/1000</span>
+                  <label class="form-label" for="message-c">Message:</label>
+                  <textarea maxlength="250" placeholder="Write your message..." id="message-c"></textarea>
+                  <span class="msg-lenght"><p id="msg-counter">0</p>/250</span>
                 </div>
               </div>
               <button id="btn-c" type="submit">Send</button>

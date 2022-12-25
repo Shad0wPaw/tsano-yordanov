@@ -11,3 +11,11 @@
     padding-bottom: 50px;
     background-color: #1c2331;
   }
+  @media (max-width: 767px) {
+    .top-cf {
+      align-self: center;
+    }
+    .top-cf h1 {
+      text-align: center;
+    }
+  }
