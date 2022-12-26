@@ -1,4 +1,4 @@
-const cardsObject = document.getElementsByClassName("card-selector")
+const cardsObject = document.getElementsByClassName("bg-card")
 
 
 function addEvent(el, event, callback) {

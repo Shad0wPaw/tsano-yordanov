@@ -8,18 +8,20 @@
     padding-bottom: 50px;
     background-color: #1c2331;
   }
-  .projects .card {
+  .projects .bg-card {
     cursor: pointer;
+    height: 220px;
     border-radius: 10px;
     border: none;
     position: relative;
-  }
-  .projects .card:hover {
-      transform: scale(1.1);
-  }
-  .bg-card {
     background: linear-gradient(to right, #373b44, #4286f4) !important;
     color: #fff;
+  }
+  .projects .bg-card:hover {
+      transform: scale(1.1);
+  }
+  .projects .bg-card p{
+    font-size: 15px;
   }
   @media (max-width: 767px) {
     #output-top-pr h1 {

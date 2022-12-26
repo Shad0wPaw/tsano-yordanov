@@ -17,20 +17,22 @@ function openCf() {
   );
   var cfImg = document.createElement("img");
   cfImg.setAttribute("src", imgCfsrc);
-  cfImg.setAttribute("height", "760px");
+  cfImg.setAttribute("height", "auto");
   cfImg.setAttribute("width", "100%");
   cfImg.classList.add("mt-3", "mb-3", "rounded");
   const xButton = document.createElement("i");
-  xButton.classList.add(
-    "fa-solid",
-    "fa-xmark-large",
-    "position-absolute",
-    "top-0",
-    "end-0"
-  );
+  xButton.className = 'fa-sharp fa-solid fa-xmark'
   cfOpen.append(cfDiv);
-  cfDiv.append(xButton);
   cfDiv.append(cfImg);
+  cfDiv.prepend(xButton);
+  xButton.addEventListener('click', ()=>{
+    cfDiv.remove()
+    for (ir = 0; ir < cfChilds.length; ir++) {
+        if (cfChilds[ir].nodeName.toLowerCase() == "div") {
+          cfChilds[ir].style.display = "inline-block";
+        }
+      }
+  })
 }
 for (ec = 0; ec < eachCard.length; ec++) {
   eachCard[ec].addEventListener("click", openCf, false);
