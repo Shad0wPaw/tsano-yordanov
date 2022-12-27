@@ -30,9 +30,14 @@ addEvent(loginForm, 'submit', function(e){
 }())
 
 (function(){
-    var submitted = false;
-    
-    submit.
-
-    
+    const registerBtn = document.getElementById('registerBTN');
+    const loginBtn = document.getElementById('loginBTN');
+    const flipBoxInner = document.getElementsByClassName('flip-box-inner')[0]
+  
+    registerBtn.addEventListener('click', ()=>{
+      flipBoxInner.style.transform = 'rotateY(540deg)'
+    })
+    loginBtn.addEventListener('click', ()=>{
+      flipBoxInner.style.transform = 'rotateY(0deg)'
+    })
 }())
