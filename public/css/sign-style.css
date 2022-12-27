@@ -34,7 +34,8 @@
 .flip-box h2 {
   font-size: 16px;
 }
-#registerBTN, #loginBTN {
+#registerBTN,
+#loginBTN {
   margin-left: 5px;
   cursor: pointer;
   font-size: 16px;
@@ -42,14 +43,13 @@
   border-bottom: 1px solid lightblue;
 }
 .legend {
-    font-size: 40px;
+  font-size: 40px;
 }
-#registerBTN:hover, #loginBTN:hover {
-    color: rgb(109, 131, 230);
-    border-bottom: 1px solid rgb(109, 131, 230);
+#login button {
+  padding: 5px 60px;
 }
-/* 
-  .flip-box:hover .flip-box-inner {
-    transform: rotateY(180deg);
-  }
-   */
+#registerBTN:hover,
+#loginBTN:hover {
+  color: rgb(109, 131, 230);
+  border-bottom: 1px solid rgb(109, 131, 230);
+}

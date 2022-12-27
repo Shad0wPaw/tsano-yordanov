@@ -19,20 +19,10 @@ function addEvent(el, event, callback) {
   }
 
 (function(){
-
-addEvent(loginForm, 'submit', function(e){
-    e.preventDefault();
-    var elements = this.elements;
-    var email = elements.emailLogin.value
-    var password = elements.passwordLogin.value
-    console.log(userInput)
-})
-}())
-
-(function(){
     const registerBtn = document.getElementById('registerBTN');
     const loginBtn = document.getElementById('loginBTN');
     const flipBoxInner = document.getElementsByClassName('flip-box-inner')[0]
+    const bothSectionRemFP = document.getElementsByClassName('rs-remFP');
   
     registerBtn.addEventListener('click', ()=>{
       flipBoxInner.style.transform = 'rotateY(540deg)'
@@ -40,4 +30,30 @@ addEvent(loginForm, 'submit', function(e){
     loginBtn.addEventListener('click', ()=>{
       flipBoxInner.style.transform = 'rotateY(0deg)'
     })
+    if(window.innerWidth <= 401){
+      bothSectionRemFP[0].classList.add('col-12', 'mb-2');
+      bothSectionRemFP[1].classList.add('col-12');
+    } else {
+      bothSectionRemFP[0].classList.remove('col-12', 'mb-2');
+      bothSectionRemFP[1].classList.remove('col-12');
+    }
+    window.addEventListener("resize", ()=>{
+    if(window.innerWidth <= 401){
+      bothSectionRemFP[0].classList.add('col-12', 'mb-2');
+      bothSectionRemFP[1].classList.add('col-12');
+    } else {
+      bothSectionRemFP[0].classList.remove('col-12', 'mb-2');
+      bothSectionRemFP[1].classList.remove('col-12');
+    }
+    })
 }())
+// (function(){
+// addEvent(loginForm, 'submit', function(e){
+//     e.preventDefault();
+//     var elements = this.elements;
+//     var email = elements.emailLogin.value
+//     var password = elements.passwordLogin.value
+//     console.log(userInput)
+// })
+// }())
+
